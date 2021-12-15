@@ -1,13 +1,8 @@
-import Head from "next/head";
 import Link from "next/link";
 
-export default function Home() {
+export default function Contact() {
   return (
     <div className="container">
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <nav>
         <Link href="/">
           <a>Home</a>
@@ -23,7 +18,7 @@ export default function Home() {
         </Link>
       </nav>
       <main>
-        <h1>Home</h1>
+        <h1>Contact</h1>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
